@@ -79,10 +79,10 @@ This repository contains:
    ```
 
 2. **Install dependencies**
-
-   ```npm install
-
-   ```
+   Using npm
+   npm install
+   or
+   yarn install
 
 3. Verify ChromeDriver
    Selenium WebDriver for Chrome will download the matching driver automatically.
@@ -93,17 +93,17 @@ This repository contains:
 │ │ ├── HomePage.ts
 │ │ ├── LoginPage.ts
 │ │ └── RegistrationPage.ts
-│ └── tests # Jest test files
-│ ├── smoke.test.ts # Automated smoke test
-│ ├── register.test.ts
-│ ├── login.test.ts
-│ ├── search.test.ts
-│ ├── add-to-cart.test.ts
-│ ├── checkout.test.ts
-│ └── checkout-my-orders.test.ts
-├── bug-report.md # Documented bugs & repro steps
-├── smoke-tests.md # Identified smoke test scenarios
-├── test-cases.md # Full test case matrix
+│ └── tests # Jest test specs
+│ ├── smoke.test.ts # Smoke test suite
+│ ├── register.test.ts # Registration flow
+│ ├── login.test.ts # Login flow
+│ ├── search.test.ts # Search functionality
+│ ├── add-to-cart.test.ts # Add to cart flow
+│ ├── checkout.test.ts # Checkout flow
+│ └── checkout-my-orders.test.ts # “My Orders” verification
+├── bug-report.md # Logged defects & repro steps
+├── smoke-tests.md # Identified smoke-test scenarios
+├── test-cases.md # Manual test matrix
 ├── jest.config.js # Jest configuration
 ├── package.json
 └── README.md # This file
