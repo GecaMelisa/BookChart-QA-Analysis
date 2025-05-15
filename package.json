@@ -1,0 +1,20 @@
+{
+  "name": "qa",
+  "version": "1.0.0",
+  "description": "QA analysis of the BookCart (https://bookcart.azurewebsites.net/) - demo e-commerce app, including detailed test plan, positive and negative test cases, identified smoke tests, Selenium-based automation, bug reports and execution instructions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/selenium-webdriver": "^4.1.28",
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.32.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
+  }
+}
