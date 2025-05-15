@@ -79,34 +79,17 @@ This repository contains:
    ```
 
 2. **Install dependencies**
-   Using npm
-   npm install
-   or
-   yarn install
+
+# using npm
+
+npm install
+
+# or using Yarn
+
+yarn install
 
 3. Verify ChromeDriver
    Selenium WebDriver for Chrome will download the matching driver automatically.
-
-.
-├── automation
-│ ├── pages # Page Object Model classes
-│ │ ├── HomePage.ts
-│ │ ├── LoginPage.ts
-│ │ └── RegistrationPage.ts
-│ └── tests # Jest test specs
-│ ├── smoke.test.ts # Smoke test suite
-│ ├── register.test.ts # Registration flow
-│ ├── login.test.ts # Login flow
-│ ├── search.test.ts # Search functionality
-│ ├── add-to-cart.test.ts # Add to cart flow
-│ ├── checkout.test.ts # Checkout flow
-│ └── checkout-my-orders.test.ts # “My Orders” verification
-├── bug-report.md # Logged defects & repro steps
-├── smoke-tests.md # Identified smoke-test scenarios
-├── test-cases.md # Manual test matrix
-├── jest.config.js # Jest configuration
-├── package.json
-└── README.md # This file
 
 ## Running Tests
 
