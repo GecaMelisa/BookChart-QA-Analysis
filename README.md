@@ -80,13 +80,14 @@ This repository contains:
 
 2. **Install dependencies**
 
-# using npm
-
-npm install
-
-# or using Yarn
-
-yarn install
+   - **using npm**
+     ```bash
+     npm install
+     ```
+   - **using Yarn**
+     ```bash
+     yarn install
+     ```
 
 3. Verify ChromeDriver
    Selenium WebDriver for Chrome will download the matching driver automatically.
