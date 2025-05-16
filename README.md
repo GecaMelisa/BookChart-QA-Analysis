@@ -73,8 +73,8 @@ This repository contains:
 1. **Clone repository**
 
    ```bash
-   git clone https://github.com/<your-org>/bookcart-qa-automation.git
-   cd bookcart-qa-automation
+   git clone https://github.com/GecaMelisa/BookChart-QA-Analysis.git
+   cd Bookcart-QA-Analysis
 
    ```
 
